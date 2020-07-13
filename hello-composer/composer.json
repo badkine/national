@@ -1,0 +1,15 @@
+{
+	"name": "sumit/hello-composer",
+	"description": "own package",
+	"authors": [{
+		"name": "sumit",
+		"email": "sumit.adkineb@gmail.com"
+	}],
+	"minimum-stability": "stable",
+	"autoload": {
+		"psr-4": {
+			"sunbeam\\": "src/"
+		}
+	},
+	"require": {}
+}
